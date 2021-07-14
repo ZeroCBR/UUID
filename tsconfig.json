@@ -3,7 +3,7 @@
     "target": "es2019",
     "module": "commonjs",
     "moduleResolution": "Node",
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "outDir": "./dist",
     "strict": true,
     "resolveJsonModule": true,
@@ -30,7 +30,7 @@
     "dist",
   ],
   "include": [
-    "./*.ts",
+    "./**/*.ts",
     "src/index.ts",
   ],
 }
