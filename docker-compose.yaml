@@ -1,0 +1,6 @@
+version: "3"
+services:
+  uuid:
+    build:
+      context: .
+      dockerfile: Dockerfile

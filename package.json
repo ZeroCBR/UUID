@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node -r ts-eager/register ./src/index.ts",
     "test": "mocha -r ts-eager/register src/**/*.spec.ts",
+    "test:docker": "mocha ./**/tests/*.spec.js",
     "lint:fix": "eslint --ext .ts . --fix",
     "lint": "eslint --ext .ts ."
   },
