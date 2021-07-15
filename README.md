@@ -17,5 +17,7 @@
 4. `npm run start` for running CLI tool and you will be asked to input your test case, e.g
 
 > Please provide numbers separated by single whitespace
->     6 1 5 9 2
->     This is the longest increasing subsequence upon your input: 1,5,9
+> 
+> 6 1 5 9 2
+> 
+> This is the longest increasing subsequence upon your input: 1,5,9
